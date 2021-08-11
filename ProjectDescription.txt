@@ -1,0 +1,44 @@
+Welcome to Whiteboard!
+To get started, log into the student portal using the following credentials:
+
+Username: student
+Password: password
+
+This is meant to be a web application that is similar to Canvas and Blackboard.
+As a user (aka a student), you can view information specific to each course you are enrolled in,
+including the syllabus, the professor's ratings, announcements from the professor, your grades, and
+the other students in the class. It also allows you to submit a rating of your professor and displays
+an average of all of the ratings the professor received with a corresponding star rating.
+Users can also upload their assignments to be graded.
+In addition, there are two APIs on this application, a quiz API and a calendar API.
+Users can use the quiz API (located in the announcements section of each course) to sharpen their 
+skills on their topic of choice.
+Users can view the university calendar using the calendar tab in the top menu. This calendar
+has all of the events for each class listed on it, as well as a countdown to finals week.
+
+Reflection:
+
+This project was very time consuming for me. Somethings that I specifically struggled with are
+using the APIs and working with the styling of the web application.
+Since using APIs was something that we briefly covered in class, I struggled with trying to add it 
+to my web application. Luckily, the calendar API that I found did not require a unique API key so
+I was able to get that working once I figured out how to add it in my project. The quiz API was a little 
+bit more difficult because it required a unique API and therefore required some further research for me to
+do in order to get it working properly. I wanted to make each API more relevant to the project by personalizing
+it with some of my own code so that I can do things like link them back to the main page and only allow a certain
+number of questions to show. That was pretty difficult to do for the quiz API because it took me a while to
+figure out where to place my code. I basically did a lot of trial-and-error for this project, especially in the
+styling because that was something we did not go over in this class. I took a User-Centered design class last semester
+so I was able to apply some of the information that I learned from that regarding CSS styling to this project as well.
+Still, it was pretty difficult trying to figure out some of the spacing in this project.
+
+Something that I was not able to make fully work was the file upload. The web application allows users
+to upload their assignment submissions, which shows in the database, but it won't upload to the server.
+I tried many different things to make this work but unfortunately they were all unsuccessful. I left the code
+there if you want to check it out. If I didn't do anything wrong I'm guessing that Pitt's server
+doesn't allow for files to be uploaded that way.
+I also was not able to fix the styling on the professor rating page when you click that you want to add a comment.
+Everything works properly for this page but when you toggle the add a comment checkbox, the styling messes up.
+
+Overall, I really enjoyed making this project and it's really interesting to see how different types of
+code can coexist and work together within one web application.
